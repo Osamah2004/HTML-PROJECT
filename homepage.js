@@ -16,3 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+function goToProduct(productID){
+    localStorage.setItem("productID",productID);
+}
