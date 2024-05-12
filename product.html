@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <img id="image" src="none.png" alt="placeholder image">
+        <h3 id="name"></h3>
+<pre id="description" style="font-size: 22px;"></pre>
+
+        <script>
+            function setPage(name,image,description){
+                document.getElementById('image').setAttribute('src',image);
+                document.getElementById('name').textContent = name;
+                document.title = name;
+                document.getElementById('description').textContent = description;
+            }
+            let id = localStorage.getItem("productID");
+            console.log(id);
+            switch (id){
+                case "1":setPage('آيفون 15','OIP.jpg','جوال من ازبل سلسلة جولات في تاريخ البشرية');break;
+                case "2":setPage("شاحن متنقل","93909ee870c1825f2c734adda9dc97112e6317d9.webp","شاحن متنقل من شركة انكر");break;
+                case "3":setPage("بلايستايسن 5","download.jpg","البيسي اطلق منو");break;
+                case "4":setPage("جالاكسي S24 الترا","s24.jpg","القوت");break;
+            }
+        </script>
+    </body>
+</html>
