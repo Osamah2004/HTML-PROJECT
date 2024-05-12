@@ -1,0 +1,90 @@
+/* Reset CSS لإزالة الحواجز الافتراضية للمتصفح */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق النافبار */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* تنسيق المحتوى */
+main {
+    padding: 20px;
+}
+
+/* تنسيق منطقة المنتجات */
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+    transition: background-color 0.3s, color 0.3s; /* تحديد التحولات */
+}
+
+.product:hover {
+    background-color: #f0f0f0; /* لون الخلفية عند التمرير بالماوس */
+    color: #333; /* لون النص عند التمرير بالماوس */
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* تقريب الصور لتكون دائرية */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للصور */
+}
+
+.product h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.product p {
+    font-size: 16px;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
