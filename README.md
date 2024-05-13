@@ -15,4 +15,4 @@ git push
 ```
 Replace `a message` with your own message!
 
-## اذا واجهت مشكلة كلمني عالواتس
+## اذا واجهت مشكلة اسأل GPT.
