@@ -1,1 +1,7 @@
 just a test
+git add test.txt
+git commit -m "test file"
+git push
+
+if you are adding a new file, you have to write (git add {yourFileName.html} )
+if you are modifying an existing file you can ignore the above line
